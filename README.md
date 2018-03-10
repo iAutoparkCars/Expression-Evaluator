@@ -21,8 +21,8 @@
  # Algorithm: 		
  * Runtime is linear, O(N), where N is the # of tokens in the expression
  * Space is constant
- * The algorithm would look much simpler if I were to construct a tree from the expression,
-   but then the space would become linear
+ * The algorithm in the code would look as simple as below's pseudocode if 
+   I were to construct a tree from the expression, but then the space would become linear
 High-level pseudocode of the solution.
 
 		evaluate(expression expr)
