@@ -1,8 +1,9 @@
-# Compilation instructions:
+# Compilation + Running instructions:
 	Assuming you have Java installed:
 		javac Polish.java
 		java Polish
-
+ * Or you can fire up your favorite Java IDE and run in there.
+ 
 # Assumptions: 
  * The inputs are valid prefix/Polish expressions.
  * Accepts Integers, Doubles, and Negative values.
