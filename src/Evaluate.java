@@ -16,9 +16,6 @@ import java.util.regex.Pattern;
  *     2 -> 3
  *     ...
  *     i -> i+1
- *
- *     I could have constructed a tree with the expressions, which would simplify the algorithm a lot,
- *     but then the space used would be linear. Evaluating the input as an array, space used is only constant.
 */
 public class Evaluate {
 
