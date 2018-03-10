@@ -3,19 +3,26 @@
 		javac Polish.java
 		java Polish
 
-# Using **one** 3rd party reactive library
- * Runtime is linear, O(N), where N is the # of tokens in the expression
- * Space is constant
- * The algorithm would look much simpler if I were to construct a tree from the expression,
-   but then the space would become linear
-
 # Assumptions: 
  * The inputs are valid prefix/Polish expressions.
  * Accepts Integers, Doubles, and Negative values.
  * Does not accept imaginary and exponential numbers.
  * Only works with + and - operators.
+ * Pattern to find valid sub-expression
+
+	   opCount numCount
+ 	     1 -> 2
+ 	     2 -> 3
+ 	     ...
+ 	     i -> i+1
+
+			
  
-		
+ # Algorithm: 		
+ * Runtime is linear, O(N), where N is the # of tokens in the expression
+ * Space is constant
+ * The algorithm would look much simpler if I were to construct a tree from the expression,
+   but then the space would become linear
 High-level pseudocode of the solution.
 
 	evaluate(expression expr)
