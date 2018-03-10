@@ -25,24 +25,24 @@
    but then the space would become linear
 High-level pseudocode of the solution.
 
-	evaluate(expression expr)
-	{
-		if first token in expr is a number	// base case
-			return the number
-		
-		if first token is an operator
-			left_expr = findLeftExpression(expr)
-			left = evaluate(left_expr)
-			
-			right_expr = findRightExpression(expr)
-			right = evaluate(right_expr)
-			
-		// operators should only be - or +
-		if op is -
-			return left - right
-		if op is + 
-			return left + right
-		
-		// invalid operator
-		return error
-	}	
+		evaluate(expression expr)
+		{
+			if first token in expr is a number	// base case
+				return the number
+
+			if first token is an operator
+				left_expr = findLeftExpression(expr)
+				left = evaluate(left_expr)
+
+				right_expr = findRightExpression(expr)
+				right = evaluate(right_expr)
+
+			// operators should only be - or +
+			if op is -
+				return left - right
+			if op is + 
+				return left + right
+
+			// invalid operator
+			return error
+		}	
