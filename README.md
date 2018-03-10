@@ -23,6 +23,7 @@
  * Space is constant
  * The algorithm in the code would look as simple as below's pseudocode if 
    I were to construct a tree from the expression, but then the space would become linear
+
 High-level pseudocode of the solution.
 
 		evaluate(expression expr)
