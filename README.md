@@ -1,3 +1,7 @@
+# Prefix Expression Evaluation:
+ * The expression `+ 1 3` evaluates to 4, where `+` is the operator that 
+   precedes the two numbers `3` and `4`
+
 # Compilation + Running instructions:
 	Assuming you have Java installed:
 		javac Polish.java
