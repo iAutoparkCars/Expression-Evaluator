@@ -6,8 +6,8 @@
 
 # Compilation + Running instructions:
 	Assuming you have Java installed:
-		javac Polish.java
-		java Polish
+		javac Evaluate.java
+		java Evaluate
  * Or you can fire up your favorite Java IDE and run in there.
  
 # Assumptions: 
