@@ -6,9 +6,11 @@
 
 # Compilation + Running instructions:
 * Assuming you have Java installed and inside the appropriate directory with the this project's .java file
-	
+* There will be a set of examples. After, you can input your own valid prefix expressions.
+
 		javac Evaluate.java
 		java Evaluate
+		
  * Or you can fire up your favorite Java IDE and run in there.
  
 # Assumptions: 
