@@ -1,8 +1,8 @@
 # Prefix Expression Evaluation:
  * The expression `+ 1 3` evaluates to 4, where `+` is the operator that 
    precedes the two numbers `3` and `4`
- * Note how each token is delimited by whitespace ` `; so multi-digit tokens in expressions
-   such as `- 11 10` work as well
+ * Note how each token is delimited by whitespace ` `
+ * Therefore multi-digit tokens in expressions such as `- 11 10` will work as well
 
 # Compilation + Running instructions:
 	Assuming you have Java installed:
