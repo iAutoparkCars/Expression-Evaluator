@@ -11,7 +11,7 @@
 # Assumptions: 
  * The inputs are valid prefix/Polish expressions.
  * Accepts Integers, Doubles, and Negative values.
- * Does not accept imaginary and exponential numbers.
+ * Does __not__ accept imaginary numbers, exponential numbers, fractions, square roots, etc.
  * Only works with + and - operators.
  * Pattern to find valid sub-expression
 
