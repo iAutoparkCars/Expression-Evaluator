@@ -55,7 +55,14 @@ public class Evaluate {
             System.out.println("");
 		}
 	}
-
+	
+	/*
+	 * calls the main evaluate function, prints the result.
+	 * If a double's result is v.0, where v is some digits, only v is printed
+	 *
+	 * @param input
+	 * 		a string representing the expression
+	*/
 	public static void evaluate(String input){
 
 		String[] equation = input.split("\\s+");
