@@ -5,7 +5,7 @@
  * Therefore multi-digit tokens in expressions such as `- 11 10` will work as well
 
 # Compilation + Running instructions:
-* Assuming you have Java installed
+* Assuming you have Java installed and inside the appropriate directory with the this project's .java file
 	
 		javac Evaluate.java
 		java Evaluate
