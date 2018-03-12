@@ -5,17 +5,7 @@ import java.util.regex.Pattern;
 /*
  * Program to evaluate prefix expressions, ie. operators come before values.
  *
- * Assumptions:
- *      Please view the README.
- * Solution via Recursion:
- * 		Please view the README.
- *
- * Each expression and subexpression is found by this pattern:
- * opCount numCount
- *     1 -> 2
- *     2 -> 3
- *     ...
- *     i -> i+1
+ *      Please view the README for more details.
 */
 public class Evaluate {
 
