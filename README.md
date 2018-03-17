@@ -1,10 +1,10 @@
-# Prefix Expression Evaluation:
+## Prefix Expression Evaluation
  * The expression `+ 1 3` evaluates to 4, where `+` is the operator that 
    precedes the two numbers `3` and `4`
  * Note how each token is delimited by ` ` (whitespace)
  * Therefore multi-digit tokens in expressions such as `- 11 10` will work as well
 
-# Compilation + Running instructions:
+## Compilation + Running instructions
 * Assuming you have Java installed and inside the appropriate directory with the this project's .java file
 * There will be a set of examples. After, you can input your own valid prefix expressions.
 
@@ -13,7 +13,7 @@
 		
  * Or you can fire up your favorite Java IDE and run in there.
  
-# Assumptions: 
+# Assumptions 
  * The inputs are valid prefix/Polish expressions.
  * Accepts Integers, Doubles, and Negative values.
  * Does __not__ accept imaginary numbers, exponential numbers, fractions, square roots, etc.
@@ -28,7 +28,7 @@
 
 			
  
- # Algorithm: 		
+ # Algorithm		
  * Runtime is linear, O(N), where N is the # of tokens in the expression
  * Space is constant
  * The algorithm in the code would look as simple as below's pseudocode if 
